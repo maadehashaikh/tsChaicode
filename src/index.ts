@@ -6,6 +6,8 @@ function greet(user: string): string {
 
 console.log(greet("ali"));
 
+console.log(greet("geet"));
+
 
 const user: string = "chai or TS";
 
