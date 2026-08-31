@@ -66,8 +66,6 @@ function orderChai(size: "small" | "medium" | "large" | number) {
 
 
 
-
-
 class KuladChai {
   serve() {
     return `Serving kulad chai `
@@ -108,3 +106,6 @@ function serveExample(chai: KuladChai | CuttingChai) {
 
   // yahan chai effectively CuttingChai hai
 }
+
+
+// yeh example hmy ai ny di hai ai keh rha hai kay bhaee apny type to specify kardi hai kay is var ko yehi type mily ge lekin agar kcuh aisa ho kay type specify ho lekin ho skta hai is condition kay ilawa bh koi or condition aa jay ? so apny us ko karna haii handle ....
