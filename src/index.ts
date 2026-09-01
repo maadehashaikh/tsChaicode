@@ -3,20 +3,13 @@ function greet(user: string): string {
 }
 
 
-
 console.log(greet("ali"));
-
 console.log(greet("geet"));
 
 
 const user: string = "chai or TS";
 
 console.log(greet(user));
-
-
-
-
-
 
 
 
@@ -98,3 +91,20 @@ function serveExample(chai: KuladChai | CuttingChai) {
 
 
 // yeh example hmy ai ny di hai ai keh rha hai kay bhaee apny type to specify kardi hai kay is var ko yehi type mily ge lekin agar kcuh aisa ho kay type specify ho lekin ho skta hai is condition kay ilawa bh koi or condition aa jay ? so apny us ko karna haii handle ....
+
+
+
+type ChaiOrder = {
+  type: string
+  sugar: number
+}
+
+function isChaiOrder(obj: any): obj is ChaiOrder {
+  return (typeof obj === 'object' && obj != null && typeof obj.type === 'string' && typeof obj.sugar === 'number')
+}
+
+function serveOrder(item: ChaiOrder | string) {
+  if (isChaiOrder(item)) {
+    return `Serving ${item.type} chai with ${item.sugar} sugar`
+  }
+}
