@@ -18,24 +18,6 @@ console.log(greet(user));
 
 
 
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/maadehashaikh/tsChaicode.git
-// git push -u origin main
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // type narrowing 
@@ -52,9 +34,7 @@ function getChai(kind: string | number) {
 
 // we are assure kay bhae  jab kind ki type string ho to bhaee if mai jay ga and jab number hoga order to woh jay ga else mai
 
-
 // ab ap string mai . lagao gay to apko string kay sath jo methods hoty hain wohi milain gay 
-
 
 // yani apko maloom he ho kay bhaee agar string aya to yeh msg if mai jay ga warna apny us ka aik or msg bh likh rakha hai kay agar string nh ata to yeh is case mai woh msg show kardy .....
 
