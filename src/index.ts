@@ -12,7 +12,6 @@ const user: string = "chai or TS";
 console.log(greet(user));
 
 
-
 // type narrowing 
 
 
@@ -108,3 +107,5 @@ function serveOrder(item: ChaiOrder | string) {
     return `Serving ${item.type} chai with ${item.sugar} sugar`
   }
 }
+
+
